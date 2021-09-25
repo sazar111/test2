@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+.typewrite {
+    text-decoration: none;
+    color: white;
+    padding-top: 40px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4.5vw;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+@media screen and (min-width: 601px) {
+    .typewrite {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .typewrite {
+        font-size: 30px;
+    }
+}

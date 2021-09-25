@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+
+
+.heading {
+    width: 100%;
+    background-color: #032357;
+}
+
+.sponsors {
+    background-color: #032357;
+    height: 100%;
+}
+
+.img {
+    max-width: 300px;
+}
+
+.s__title {
+    color: #F5E8C7;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #032357;
+    font-weight: 800;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.p__title {
+    padding: 0 1vw;
+    color: #F5E8C7;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #e63946;
+    font-weight: 800;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+.e__title {
+    color: #F5E8C7;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #184d47;
+    font-weight: 800;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+@media screen and (min-width: 601px) {
+    .e__title {
+        font-size: 6vw;
+    }
+    .p__title {
+        font-size: 6vw;
+    }
+    .s__title {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .e__title {
+        font-size: 13vw;
+    }
+    .p__title {
+        font-size: 13vw;
+    }
+    .s__title {
+        font-size: 13vw;
+    }
+}
+.page-contain {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #184d47;
+    font-family: "Open Sans", sans-serif;
+    margin-left: -2%;
+}
+
+/*clock*/
+
+@-webkit-keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+.clock ul {
+    padding-inline-start: 0px;
+}
+
+.clock li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.clock {
+    font-size: 1vw;
+}
+@media screen and (max-width: 530px) {
+    .clock {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .clock {
+        font-size: 1.7vw;
+    }
+}
+
+.clock li span {
+    display: block;
+    font-size: 5vw;
+}
+
+
+/*   -----Sponsors-------*/
+
+.sponsors {
+    padding-left: 10vh;
+    padding: 50px;
+}
+.sponsors .iic{
+    margin: 50px;
+}
+
+.myGallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.myGallery img {
+    width: 70%;
+    padding-top: 10px;
+}
+
+@media (max-width: 520px) {
+    .sponsors {
+        padding-left: 12vh;
+        padding-bottom: 50px;
+    }
+    .sponsors .iic{
+        margin: 20px;
+    }
+}
+
+
+/*   -----Sponsors-------*/

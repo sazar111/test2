@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+.glitch {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    font-family: "Black Ops One", cursive;
+    transform: translate(-50%, -50%);
+}
+
+.glitch__text {
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    padding: 0 1vw;
+    color: #ffffff;
+}
+
+
+.glitch__text__title {
+    display: inline-block;
+    font-size: 1;
+    white-space: nowrap;
+    line-height: 1;
+}
+.glitch__text__title strong {
+    font-size: 130px ;
+}
+
+@media screen and (max-width: 1100px) {
+    .glitch__text__title strong {
+        font-size: 10vw ;
+    }
+}
+@media screen and (max-width: 600px) {
+    .glitch__text__title strong {
+        font-size: 60px ;
+    }
+}
+@media screen and (max-width: 530px) {
+    .glitch__text__title strong {
+        font-size: 50px ;
+    }
+}
+@media screen and (max-width: 400px) {
+    .glitch__text__title strong {
+        font-size: 40px ;
+    }
+}
+
+
+.glitch__text__title b {
+    font-size: 8vw;
+}
+
+.glitch__text__title.glitch-effect {
+    position: relative;
+    display: inline-block;
+}
+
+.glitch__text__title.glitch-effect.slice::after {
+    content: "";
+    height: 5%;
+    width: 110%;
+    position: absolute;
+    top: 30%;
+    left: -5%;
+    z-index: 1;
+}
+
+.glitch__text__title.glitch-effect.slice::before {
+    content: "";
+    height: 10%;
+    width: 110%;
+    position: absolute;
+    top: 60%;
+    left: -5%;
+    z-index: 1;
+}
+
+.glitch__text__title.glitch-effect span {
+    position: absolute;
+    top: 0;
+    display: none;
+    z-index: -1;
+}
+
+.glitch__text__title.glitch-effect span.glitch-effect-text-clr1 {
+    color: rgba(255, 0, 255, 0.9);
+    left: -2px;
+}
+
+.glitch__text__title.glitch-effect span.glitch-effect-text-clr2 {
+    color: rgba(0, 255, 250, 0.9);
+    right: -2px;
+}
+
+.glitch__text__title.glitch-effect.active span {
+    display: inline-block;
+}
